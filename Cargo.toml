@@ -1,0 +1,11 @@
+[package]
+name = "modbus_meter_generic"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = "1.0"
+tokio = { version = "1.0", features = ["full"] }
+tokio-modbus = "0.13.1"
+config_meter_generic = { path = "../config_meter_generic" }
+
